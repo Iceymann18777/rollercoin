@@ -1,0 +1,4 @@
+# rollercoin
+
+## DISCLAIMER DO NOT TRY TO CHEAT OR ABUSE YOU WILL END UP IN A KICK 🦵 !!
+
