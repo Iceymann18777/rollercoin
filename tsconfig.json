@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "baseUrl": "./",
+    "paths": {
+			"utils/*": ["src/utils/*"],
+      "types/*": ["src/types/*"],
+      "modules/*": ["src/modules/*"],
+    },
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "declaration": true,
+    "target": "es2017",
+    "lib": ["es2017", "dom"],
+    "outDir": "./dist",
+    "noUnusedLocals": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedParameters": false,
+    "pretty": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowUnreachableCode": false,
+    "strict": false
+  },
+  "include": ["src", "node_modules/@types/puppeteer/index.d.ts", "node_modules/@jimp/types/index.d.ts"]
+}
