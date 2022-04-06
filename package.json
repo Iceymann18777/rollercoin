@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "ts-node -r tsconfig-paths/register src/start.ts",
-    "openWindowAndSignIn": "ts-node -r tsconfig-paths/register src/openWindowAndSignIn.ts"
+   "start": "ts-node -r tsconfig-paths/register src/openWindowAndSignIn.ts",
+    "openWindowAndSignIn": "ts-node -r tsconfig-paths/register src/start.ts"
   },
   "author": "",
   "license": "ISC",
