@@ -7,7 +7,7 @@ export default async function(
   try {
     const innerHTML = await page.evaluate(
       (el: any) => el.innerHTML,
-      await element
+      element
     );
 
     return innerHTML.replace(/[\n\r\t]/g, "").trim();

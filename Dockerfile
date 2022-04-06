@@ -1,7 +1,7 @@
 FROM node:16-alpine
 WORKDIR /usr/src/app
 COPY package*.json ./ package-lock.json ./
-RUN npm i typescript --save-dev
+RUN npm i 
 COPY . .
-EXPOSE 3500
+EXPOSE 3000
 CMD [ "npm", "start" ]
