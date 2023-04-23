@@ -32,7 +32,7 @@
     "@types/node": "^17.0.18",
     "@types/puppeteer": "^5.4.4",
     "babel-eslint": "^10.1.0",
-    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-plugin-module-resolver": "^5.0.0",
     "ts-node": "^8.4.1",
     "tsconfig-paths": "^3.9.0",
     "typescript": "^3.9.10"
